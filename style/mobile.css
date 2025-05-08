@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* body {
+  background-color: darksalmon;
+} */
+
+header,
+nav ul {
+  flex-flow: column wrap;
+}
+
+header > h1 {
+  flex-basis: 50px;
+  text-shadow: 2px 2px 0px #00000054;
+}
+
+nav > ul > li > a {
+  width: 90vw;
+}
