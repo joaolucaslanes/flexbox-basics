@@ -71,3 +71,36 @@ div.media > iframe {
   width: 80%;
   padding-top: 15px;
 }
+
+footer {
+  background-color: #f0f0f0;
+  color: #666;
+  font-size: 0.9em;
+  border-top: 1px solid #ddd;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-links {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: #666;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+.footer-bottom {
+  font-size: 0.8em;
+  color: #999;
+}
